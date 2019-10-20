@@ -1,4 +1,4 @@
-# Embedded-react-scripts
+# Embeded-react-scripts
 
 This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).  Specifically modified for use in a SPIFFS filesystem on a ESP8266.
 

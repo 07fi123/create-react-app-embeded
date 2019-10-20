@@ -1,10 +1,10 @@
 {
   "name": "embeded-react-scripts",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Configuration and scripts for Create React App in an Embeded Enviroment.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/07fi/create-react-app-embeded.git",
+    "url": "https://github.com/07fi123/create-react-app-embeded.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/07fi/create-react-app-embeded/issues"
+    "url": "https://github.com/07fi123/create-react-app-embeded.git/issues"
   },
   "files": [
     "bin",
