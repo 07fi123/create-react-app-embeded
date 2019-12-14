@@ -1,4 +1,8 @@
-# Embeded-react-scripts
+# Embedded-react-scripts
+
+**Important**: This package is still in early development and should be considered experimental.  
+
+###Getting Started
 
 This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).  Specifically modified for use in a SPIFFS filesystem on a ESP8266.
 
@@ -7,8 +11,6 @@ To configure a new create react app project with this configuration
 ```
 npx create-react-app my-app --scripts-version embedded-react-scripts
 ```
-
-
 
 This has been tested and built using [platform.io](https://platform.io) on a NodeMCU board. 
 
