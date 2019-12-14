@@ -34,11 +34,11 @@ When you’re ready to deploy to production, create a minified bundle with `npm 
 You **don’t** need to install or configure tools like Webpack or Babel.<br>
 They are preconfigured and hidden so that you can focus on the code.
 
-Just create a project, and you’re good to go.
+Create a project, and you’re good to go.
 
 ## Creating an App
 
-**You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
+**You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
 To create a new app, you may choose one of the following methods:
 
@@ -48,7 +48,7 @@ To create a new app, you may choose one of the following methods:
 npx create-react-app my-app
 ```
 
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) is a package runner tool that comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
 
 ### npm
 
@@ -89,7 +89,7 @@ my-app
     └── serviceWorker.js
 ```
 
-No configuration or complicated folder structures, just the files you need to build your app.<br>
+No configuration or complicated folder structures, only the files you need to build your app.<br>
 Once the installation is done, you can open your project folder:
 
 ```sh
@@ -136,7 +136,7 @@ Please refer to the [User Guide](https://facebook.github.io/create-react-app/doc
 
 ## Philosophy
 
-- **One Dependency:** There is just one build dependency. It uses Webpack, Babel, ESLint, and other amazing projects, but provides a cohesive curated experience on top of them.
+- **One Dependency:** There is only one build dependency. It uses Webpack, Babel, ESLint, and other amazing projects, but provides a cohesive curated experience on top of them.
 
 - **No Configuration Required:** You don't need to configure anything. A reasonably good configuration of both development and production builds is handled for you so you can focus on writing code.
 
@@ -175,7 +175,7 @@ Here are a few common cases where you might want to try something else:
 
 - If you need to **publish a React component**, [nwb](https://github.com/insin/nwb) can [also do this](https://github.com/insin/nwb#react-components-and-libraries), as well as [Neutrino's react-components preset](https://neutrino.js.org/packages/react-components/).
 
-- If you want to do **server rendering** with React and Node.js, check out [Next.js](https://github.com/zeit/next.js/) or [Razzle](https://github.com/jaredpalmer/razzle). Create React App is agnostic of the backend, and just produces static HTML/JS/CSS bundles.
+- If you want to do **server rendering** with React and Node.js, check out [Next.js](https://github.com/zeit/next.js/) or [Razzle](https://github.com/jaredpalmer/razzle). Create React App is agnostic of the backend, and only produces static HTML/JS/CSS bundles.
 
 - If your website is **mostly static** (for example, a portfolio or a blog), consider using [Gatsby](https://www.gatsbyjs.org/) instead. Unlike Create React App, it pre-renders the website into HTML at the build time.
 
@@ -185,14 +185,21 @@ All of the above tools can work with little to no configuration.
 
 If you prefer configuring the build yourself, [follow this guide](https://reactjs.org/docs/add-react-to-an-existing-app.html).
 
-## Contributing
-
-We'd love to have your helping hand on `create-react-app`! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
-
 ## React Native
 
 Looking for something similar, but for React Native?<br>
 Check out [Expo CLI](https://github.com/expo/expo-cli).
+
+## Contributing
+
+We'd love to have your helping hand on `create-react-app`! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
+
+## Credits
+
+This project exists thanks to all the people who [contribute](CONTRIBUTING.md).<br>
+<a href="https://github.com/facebook/create-react-app/graphs/contributors"><img src="https://opencollective.com/create-react-app/contributors.svg?width=890&button=false" /></a>
+
+Thanks to [Netlify](https://www.netlify.com/) for hosting our documentation.
 
 ## Acknowledgements
 
