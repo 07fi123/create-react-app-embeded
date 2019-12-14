@@ -1,6 +1,6 @@
 {
   "name": "embedded-react-scripts",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "Configuration and scripts for Create React App in an Embedded Enviroment.",
   "repository": {
     "type": "git",
